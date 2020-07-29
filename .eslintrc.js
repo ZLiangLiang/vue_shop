@@ -11,6 +11,7 @@ module.exports = {
     parser: 'babel-eslint'
   },
   rules: {
+    "camelcase": ["error", { "properties": "never" }],
     'indent': 'off',
     'semi': 0,
     "indent": ["off", 2],

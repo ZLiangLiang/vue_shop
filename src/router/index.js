@@ -5,6 +5,7 @@ import Home from '../components/Home.vue'
 import Welcome from '../components/Welcome.vue'
 import User from '../components/user/User.vue'
 import Cate from '../components/goods/Cate.vue'
+import Params from '../components/goods/Params.vue'
 
 Vue.use(VueRouter)
 
@@ -19,7 +20,8 @@ const router = new VueRouter({
       children: [
         { path: '/welcome', component: Welcome },
         { path: '/users', component: User },
-        { path: '/categories', component: Cate }
+        { path: '/categories', component: Cate },
+        { path: '/params', component: Params }
       ]
     }
   ]
